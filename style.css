@@ -2,3 +2,21 @@
     margin: 0;
     padding: 0;
 }
+
+.top{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1024px;
+    background-image: url(img/top.jpg);
+}
+
+.title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
