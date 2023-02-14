@@ -27,7 +27,7 @@ body{
     font-size: 64px;
     line-height: 78px;
     color: #FFFFFF;
-    width: 600px;
+    width: 755px;
 }
 
 .top__text {
@@ -37,7 +37,7 @@ body{
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
-    width: 430px;
+    width: 481px;
 }
 
 span {
@@ -74,7 +74,10 @@ span {
 .game__item {
     background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
     border-radius: 16px; 
-    height: 300px; 
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     grid-column: span 4;
     font-style: normal;
     font-weight: 600;
@@ -84,6 +87,7 @@ span {
     display: flex;
     align-items: flex-end;
     padding-left: 32px;
+    padding-bottom: 32px;
 }
 
 .game__item_1 {
@@ -92,6 +96,7 @@ span {
 
 .game__item_2 {
     background-image: url(img/game2.jpg);
+    
 }
 
 .game__item_3 {
