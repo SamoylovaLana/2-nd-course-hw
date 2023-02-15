@@ -58,12 +58,17 @@ span {
     padding-left: 74px;
 }
 
-.footer {
+.top__btn:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 20px #334b97ee;
+}
+
+.game {
     background: #000915;
       
 }
 
-.footer__game-box {
+.game-box {
     padding-top: 128px;
     padding-bottom: 128px;
     gap: 32px;
@@ -87,19 +92,24 @@ span {
     display: flex;
     align-items: flex-end;
     padding-left: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 32px; 
 }
 
-.game__item_1 {
+.game__item:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 20px #334b97ee;
+}
+
+.game__item-1 {
     background-image: url(img/game1.jpg);
 }
 
-.game__item_2 {
+.game__item-2 {
     background-image: url(img/game2.jpg);
     
 }
 
-.game__item_3 {
+.game__item-3 {
     background-image: url(img/game3.jpg);
 }
 
