@@ -150,4 +150,8 @@ span {
     .game-box {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .game__item {
+        padding-left: 16px;
+    }
 }    
