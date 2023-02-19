@@ -46,9 +46,9 @@ alert(age);
 const user = {
 	name: 'Svetlana',
 	age: 25,  
-	"city of residence": `Saratov`,
     isAdmin: true
 };
+user["city of residence"]= `Saratov`;
 user.age = 28;
 delete user["city of residence"];
 let info = prompt("Какую информацию хотите узнать о пользователе?");
@@ -57,10 +57,3 @@ alert(user[info]);
 // 10 задание
 let yourName = prompt(`Ваше имя?`);
 alert(`Привет, ${yourName}!`);
-
-
-
-
-
-
-
