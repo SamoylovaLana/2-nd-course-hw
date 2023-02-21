@@ -24,7 +24,7 @@ a {
   padding-right: calc(50% - 600px);
 }
 
-.top__title {
+.title {
   padding-top: 217px;
   font-style: normal;
   font-weight: 700;
@@ -34,7 +34,7 @@ a {
   width: 755px;
 }
 
-.top__text {
+.text {
   padding-top: 32px;
   font-style: normal;
   font-weight: 300;
@@ -48,11 +48,10 @@ span {
   font-weight: 700;
 }
 
-.top__btn {
+.btn {
   margin-top: 44px;
 }
-
-.top__btn--go {
+.btn__go {
   border-radius: 30px;
   width: 234px;
   height: 48px;
@@ -65,11 +64,10 @@ span {
   padding-left: 74px;
   box-sizing: border-box;
   text-align: center;
-  padding-top: 13.3px;
   display: block;
+  padding-top: 13.3px;
 }
-
-.top__btn--go:hover {
+.btn__go:hover {
   transform: scale(1.02);
   box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
 }
@@ -77,14 +75,12 @@ span {
 .game {
   background: #000915;
 }
-
 .game-box {
   padding-top: 128px;
   padding-bottom: 128px;
   gap: 32px;
   display: flex;
 }
-
 .game__item {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
   border-radius: 16px;
@@ -105,20 +101,16 @@ span {
   color: #FFFFFF;
   box-sizing: border-box;
 }
-
 .game__item:hover {
   transform: scale(1.02);
   box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
 }
-
 .game__item-1 {
   background-image: url(img/game1.jpg);
 }
-
 .game__item-2 {
   background-image: url(img/game2.jpg);
 }
-
 .game__item-3 {
   background-image: url(img/game3.jpg);
 }
@@ -132,21 +124,21 @@ span {
     height: 735px;
     background-image: url(img/top_mob.jpg);
   }
-  .top__title {
+  .title {
     padding-top: 238px;
     font-size: 32px;
     line-height: 39px;
     width: 343px;
     text-align: center;
   }
-  .top__text {
+  .text {
     padding-top: 32px;
     font-size: 14px;
     line-height: 22px;
     width: 343px;
     text-align: center;
   }
-  .top__btn {
+  .btn {
     display: flex;
     justify-content: center;
     margin-top: 32px;

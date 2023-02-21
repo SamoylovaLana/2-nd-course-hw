@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+    background-image: url(img/top_mob.jpg);
+  }
+  .title {
+    padding-top: 238px;
+    font-size: 32px;
+    line-height: 39px;
+    width: 343px;
+    text-align: center;
+  }
+  .text {
+    padding-top: 32px;
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    text-align: center;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .game-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .game__item {
+    padding-left: 16px;
+    width: 343px;
+  }
+}/*# sourceMappingURL=_mobile.css.map */

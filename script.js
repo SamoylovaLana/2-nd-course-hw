@@ -1,59 +1,99 @@
-let a;  // 1 задание
-a = 20;
-alert(a);
+// Домашняя работа №3
 
-let year;  // 2 задание
-year = 2007;
-alert(`Год выпуска первого iPhone ${year}`);
+// 1 задание
+let password = prompt("Введите пароль");
+if (password === '5HsrU84'){
+	alert("Пароль введен верно");
+} else {
+	alert("Пароль введен неправильно");
+}
 
-let creator;  // 3 задание
-creator = "Brendon Eich";
-alert(`Имя создателя языка ${creator}`);
+// 2 задание
 
-let b = 10;  // 4 задание
-let c = 2;
-let sum = b + c;
-alert(sum);
-let subtract = b - c;
-alert(subtract);
-let multiply = b * c;
-alert(multiply);
-let divide = b / c;
-alert(divide);
+let c = prompt("Введите число");
+if ( c == 55 ){
+	alert("Верно");
+} else if ( c >= 0 && c <= 10 ){
+	alert("Верно");
+} else {
+	alert("Неверно");
+}
 
-let two = 2;  // 5 задание, возведение 2 в 5-ю степень = 32
-let result = two ** 5;
-alert(result);
+// 3 задание
 
-let aa = 9;  // 6 задание, остаток от деления aa на bb = 1
-let bb = 2;
-let remainder =  aa % bb;
-alert(remainder);
+let d = prompt("Введите первое число");
+let e = prompt("Введите второе число");
+if ( d >= 100 || e >= 100 ){
+	alert("Верно");
+} else {
+	alert("Неверно");
+}
 
-let num = 1;   // 7 задание, переписывание кода с использованием операторов присваивания и инкремента/декремента
-num += 5;  // num = num + 5;
-num -= 3;  // num = num - 3;
-num *= 7;  //num = num * 7;
-num /= 3;  //num = num / 3;
-num += 1;  //num = num + 1;
-num -= 1;  //num = num - 1;
-alert(num); // Ответ 7
+// 4 задание
 
-let age = Number(prompt(`Сколько вам лет?`));  // 8 задание
-alert(age);
+let a = '2';
+let b = '3';
+a = Number(a);
+b = Number(b);
+alert( a + b);
+
+// 5 задание
+
+let monthNumber = prompt('Введите номер месяца');
+switch (monthNumber) {
+      case '1': case '2': case '12':
+            alert('Зима');
+            break;
+      case '3': case '4': case '5':
+            alert('Весна');
+            break;
+      case '6': case '7': case '8':
+            alert('Лето');
+            break;
+      case '9': case '10': case '11':
+            alert('Осень');
+            break;
+      default:
+            alert('Такого по числу месяца не существует!');
+            break;
+}
+
+//Дополнительная практика
+
+// 7 задание
+
+let numb = prompt("Пожалуйста, введите любое число");
+if (isNaN(numb)) {
+      alert('Нужно написать число!');
+} else if (numb % 2 == 0) {
+      alert('Число чётное!');
+} else {
+      alert('Число не чётное!');
+}
+
+
+let clientOS = prompt("Если Вы используете iOS введите - 0, а если Android введите - 1  ");
+if (clientOS === '0') {
+      alert('Установите версию приложения для iOS по ссылке');
+} else if (clientOS === '1') {
+      alert('Установите версию приложения для Android по ссылке');
+} else {
+      alert('Нужно ввести 1 или 0');
+}
 
 // 9 задание
-const user = {
-	name: 'Svetlana',
-	age: 25,  
-    isAdmin: true
-};
-user["city of residence"]= `Saratov`;
-user.age = 28;
-delete user["city of residence"];
-let info = prompt("Какую информацию хотите узнать о пользователе?");
-alert(user[info]);
 
-// 10 задание
-let yourName = prompt(`Ваше имя?`);
-alert(`Привет, ${yourName}!`);
+let clientOS1 = prompt("Если Вы используете iOS введите - 0, если Android введите - 1  ");
+let clientDeviceYear = prompt("Напишите год выпуска Вашего телефона");
+if (clientOS1 === '0' && clientDeviceYear <= '2014' ) {
+      alert('Установите облегченную версию приложения для iOS по ссылке');
+} else if (clientOS1 === '0' &&  clientDeviceYear >= '2015' ) {
+      alert('Установите версию приложения для iOS по ссылке');
+} else if (clientOS1 === '1' && clientDeviceYear <= '2014' ) {
+      alert('Установите облегченную версию приложения для Android по ссылке');
+} else if (clientOS1 === '1' &&  clientDeviceYear >= '2015') {
+      alert('Установите версию приложения для Android по ссылке');
+} else {
+      alert('Введено не верно');
+}
+
