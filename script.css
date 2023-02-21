@@ -1,4 +1,5 @@
-// Домашняя работа №3
+@charset "UTF-8";
+/*/ Домашняя работа №3
 
 // 1 задание
 let password = prompt("Введите пароль");
@@ -95,4 +96,4 @@ if (clientOS1 === '0' && clientDeviceYear <= '2014' ) {
       alert('Установите версию приложения для Android по ссылке');
 } else {
       alert('Введено не верно');
-}
+}*//*# sourceMappingURL=script.css.map */

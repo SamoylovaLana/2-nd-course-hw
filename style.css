@@ -24,7 +24,7 @@ a {
   padding-right: calc(50% - 600px);
 }
 
-.title {
+.top_title {
   padding-top: 217px;
   font-style: normal;
   font-weight: 700;
@@ -48,9 +48,14 @@ span {
   font-weight: 700;
 }
 
-.btn {
+.top__btn {
   margin-top: 44px;
 }
+
+.btn {
+  margin-top: 32px;
+}
+
 .btn__go {
   border-radius: 30px;
   width: 234px;
@@ -115,6 +120,107 @@ span {
   background-image: url(img/game3.jpg);
 }
 
+.seasons {
+  padding-top: 233px;
+  background: #000915;
+  display: flex;
+  padding-bottom: 233px;
+  gap: 135px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.picture {
+  height: 333px;
+}
+
+.remember {
+  padding-top: 239px;
+  background: #000915;
+  display: flex;
+  padding-bottom: 239px;
+  gap: 135px;
+}
+
+.remember__text {
+  padding-top: 32px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.btn__play {
+  border-radius: 30px;
+  width: 234px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #9C0332;
+  padding-right: 90px;
+  padding-left: 74px;
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+  padding-top: 13.3px;
+}
+.btn__play:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
+}
+
+.riddle {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(img/bottom.jpg);
+  padding-top: 276px;
+  padding-bottom: 288px;
+}
+
+.riddle__text {
+  padding-top: 32px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.riddle__title {
+  text-align: center;
+}
+
+.riddle__btn {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background: #000915;
+}
+
+.footer__title {
+  padding-top: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -124,7 +230,7 @@ span {
     height: 735px;
     background-image: url(img/top_mob.jpg);
   }
-  .title {
+  .top_title {
     padding-top: 238px;
     font-size: 32px;
     line-height: 39px;
@@ -138,7 +244,7 @@ span {
     width: 343px;
     text-align: center;
   }
-  .btn {
+  .top__btn {
     display: flex;
     justify-content: center;
     margin-top: 32px;
@@ -151,5 +257,48 @@ span {
   .game__item {
     padding-left: 16px;
     width: 343px;
+  }
+  .title {
+    font-size: 32px;
+    line-height: 39px;
+    width: 343px;
+    text-align: center;
+  }
+  .seasons {
+    padding-top: 51px;
+    padding-bottom: 85px;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .picture {
+    padding-top: 64px;
+    width: 344px;
+    height: 236px;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .remember {
+    padding-top: 51px;
+    padding-bottom: 85px;
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+  .remember__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .riddle__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .riddle {
+    background-image: url(img/bottom_mob.jpg);
+    padding-top: 51px;
+    padding-bottom: 487px;
   }
 }/*# sourceMappingURL=style.css.map */

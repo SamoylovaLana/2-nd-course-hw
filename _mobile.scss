@@ -1,38 +1,87 @@
 @media (max-width: 767px) {
-    .center {
-      padding-left: 16px;
-      padding-right: 16px;
-    }
-    .top {
-      height: 735px;
-      background-image: url(img/top_mob.jpg);
-    }
-    .title {
-      padding-top: 238px;
-      font-size: 32px;
-      line-height: 39px;
-      width: 343px;
-      text-align: center;
-    }
-    .text {
-      padding-top: 32px;
-      font-size: 14px;
-      line-height: 22px;
-      width: 343px;
-      text-align: center;
-    }
-    .btn {
-      display: flex;
-      justify-content: center;
-      margin-top: 32px;
-    }
-    .game-box {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    .game__item {
-      padding-left: 16px;
-      width: 343px;
-    }
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+    background-image: url(img/top_mob.jpg);
+  }
+  .top_title {
+    padding-top: 238px;
+    font-size: 32px;
+    line-height: 39px;
+    width: 343px;
+    text-align: center;
+  }
+  .text {
+    padding-top: 32px;
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    text-align: center;
+  }
+  .top__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  .game-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .game__item {
+    padding-left: 16px;
+    width: 343px;
+  }
+  .title {
+    font-size: 32px;
+    line-height: 39px;
+    width: 343px;
+    text-align: center;
+  }
+
+  .seasons {
+    padding-top: 51px;
+    padding-bottom: 85px;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .picture {
+    padding-top: 64px;
+    width: 344px;
+    height: 236px;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+
+  .remember {
+    padding-top: 51px;
+    padding-bottom: 85px;
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+
+  .remember__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .riddle__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .riddle {
+    background-image: url(img/bottom_mob.jpg);
+    padding-top: 51px;
+    padding-bottom: 487px;
+  }
 }
