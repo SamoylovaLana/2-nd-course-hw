@@ -41,12 +41,7 @@ let num = 5; // n = 31,25;
 for (let dayNamber = 7; dayNamber < 8; dayNamber -= 3) { // 3 = 28(цикл) - 31(в месяце дней) 
     if (dayNamber <= 7 && dayNamber >= 1) {
     alert(`Сегодня пятница, ${dayNamber}-е число. Необходимо подготовить отчет.`);
-    } else if (dayNamber <= -6 && dayNamber >= -7){
-    alert(`Сегодня пятница, ${dayNamber + 13} -е число. Необходимо подготовить отчет.`);
-    } else if (dayNamber <= 0 && dayNamber >= -5) {
-    alert(`Сегодня пятница, ${(dayNamber + 7)}-е число. Необходимо подготовить отчет.`);
-    } 
-}    
-
-
-
+    } else if (dayNamber >= -6 || dayNamber <= 0) {
+    alert(`Сегодня пятница, ${dayNamber + 7}-е число. Необходимо подготовить отчет.`);
+    }
+}  
