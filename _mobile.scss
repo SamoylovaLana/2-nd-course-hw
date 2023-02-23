@@ -7,18 +7,21 @@
     height: 735px;
     background-image: url(img/top_mob.jpg);
   }
-  .top_title {
+  .top__title {
     padding-top: 238px;
     font-size: 32px;
     line-height: 39px;
     width: 343px;
     text-align: center;
   }
+
+  .top__text {
+    width: 343px;
+  }
+
   .text {
-    padding-top: 32px;
     font-size: 14px;
     line-height: 22px;
-    width: 343px;
     text-align: center;
   }
   .top__btn {
@@ -31,7 +34,7 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  .game__item {
+  .game__play {
     padding-left: 16px;
     width: 343px;
   }
@@ -65,18 +68,6 @@
     padding-bottom: 85px;
     flex-direction: column-reverse;
     gap: 0px;
-  }
-
-  .remember__text {
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-  }
-
-  .riddle__text {
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
   }
 
   .riddle {

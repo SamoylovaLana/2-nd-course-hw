@@ -11,73 +11,84 @@ body {
 a {
     text-decoration: none;
 }
-  
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
 .top {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 1024px;
     background-image: url(img/top.jpg);
+    &__title {
+        padding-top: 217px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        color: #FFFFFF;
+        width: 755px;
+    }
+    &__text {
+        width: 481px;
+    }
+    &__btn {
+        margin-top: 44px;
+    }
 }
   
-.center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
-}
-
-.top_title {
-    padding-top: 217px;
+.title {
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
+    font-size: 48px;
+    line-height: 59px;
     color: #FFFFFF;
-    width: 755px;
 }
-        
+
 .text {
-    padding-top: 32px;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
-    width: 481px;
+    padding-top: 32px;
 }
 
 span {
     font-weight: 700;
 }
 
-.top__btn {
-    margin-top: 44px;
-}
-
 .btn {
     margin-top: 32px;
+    &__go {
+        border-radius: 30px;
+        width: 234px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        background: #9C0332;
+        padding-right: 74px;
+        padding-left: 74px;
+        box-sizing: border-box;
+        text-align: center;
+        display: block;
+        padding-top: 13.3px;
+        &:hover {
+            transform: scale(1.02);
+            box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
+        }  
+    }
+    &__play {
+        padding-right: 90px;
+        padding-left: 74px;
+    }
 }
 
-.btn__go {
-    border-radius: 30px;
-    width: 234px;
-    height: 48px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    background: #9C0332;
-    padding-right: 74px;
-    padding-left: 74px;
-    box-sizing: border-box;
-    text-align: center;
-    display: block;
-    padding-top: 13.3px;
-    &:hover {
-        transform: scale(1.02);
-        box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
-    }  
-}
-  
 .game {
     background: #000915;
     &-box {
@@ -86,7 +97,7 @@ span {
         gap: 32px;
         display: flex;
     }
-    &__item {
+    &__play{
         background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
         border-radius: 16px;
         height: 300px;
@@ -120,19 +131,13 @@ span {
         }
     }  
 }
+
 .seasons {
     padding-top: 233px;
     background: #000915;
     display: flex;
     padding-bottom: 233px;
     gap: 135px;
-}
-.title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
-    color: #FFFFFF;
 }
 
 .picture {
@@ -147,36 +152,6 @@ span {
     gap: 135px;
 }
 
-.remember__text {
-    padding-top: 32px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    color: #FFFFFF;
-}
-
-.btn__play {
-    border-radius: 30px;
-    width: 234px;
-    height: 48px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FFFFFF;
-    background: #9C0332;
-    padding-right: 90px;
-    padding-left: 74px;
-    box-sizing: border-box;
-    text-align: center;
-    display: block;
-    padding-top: 13.3px;
-    &:hover {
-        transform: scale(1.02);
-        box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
-    }  
-}
-
 .riddle {
     background-repeat: no-repeat;
     background-position: center;
@@ -184,39 +159,30 @@ span {
     background-image: url(img/bottom.jpg);
     padding-top: 276px;
     padding-bottom: 288px;
-}
-
-.riddle__text {
-    padding-top: 32px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.riddle__title {
-    text-align: center;
-}
-
-.riddle__btn {
-    display: flex;
-    justify-content: center;
+    &__text {
+        text-align: center;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .footer {
     background: #000915;
+    &__title {
+        padding-top: 32px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        padding-bottom: 32px;
+        text-align: center;
+    }
 }
 
-.footer__title {
-    padding-top: 32px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #FFFFFF;
-    padding-bottom: 32px;
-    text-align: center;
-}
 @import 'mobile';

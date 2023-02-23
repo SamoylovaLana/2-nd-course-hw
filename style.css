@@ -11,6 +11,11 @@ a {
   text-decoration: none;
 }
 
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
 .top {
   background-repeat: no-repeat;
   background-position: center;
@@ -18,13 +23,7 @@ a {
   height: 1024px;
   background-image: url(img/top.jpg);
 }
-
-.center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
-}
-
-.top_title {
+.top__title {
   padding-top: 217px;
   font-style: normal;
   font-weight: 700;
@@ -33,29 +32,37 @@ a {
   color: #FFFFFF;
   width: 755px;
 }
+.top__text {
+  width: 481px;
+}
+.top__btn {
+  margin-top: 44px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
 
 .text {
-  padding-top: 32px;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
-  width: 481px;
+  padding-top: 32px;
 }
 
 span {
   font-weight: 700;
 }
 
-.top__btn {
-  margin-top: 44px;
-}
-
 .btn {
   margin-top: 32px;
 }
-
 .btn__go {
   border-radius: 30px;
   width: 234px;
@@ -76,6 +83,10 @@ span {
   transform: scale(1.02);
   box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
 }
+.btn__play {
+  padding-right: 90px;
+  padding-left: 74px;
+}
 
 .game {
   background: #000915;
@@ -86,7 +97,7 @@ span {
   gap: 32px;
   display: flex;
 }
-.game__item {
+.game__play {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
   border-radius: 16px;
   height: 300px;
@@ -106,17 +117,17 @@ span {
   color: #FFFFFF;
   box-sizing: border-box;
 }
-.game__item:hover {
+.game__play:hover {
   transform: scale(1.02);
   box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
 }
-.game__item-1 {
+.game__play-1 {
   background-image: url(img/game1.jpg);
 }
-.game__item-2 {
+.game__play-2 {
   background-image: url(img/game2.jpg);
 }
-.game__item-3 {
+.game__play-3 {
   background-image: url(img/game3.jpg);
 }
 
@@ -126,14 +137,6 @@ span {
   display: flex;
   padding-bottom: 233px;
   gap: 135px;
-}
-
-.title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 59px;
-  color: #FFFFFF;
 }
 
 .picture {
@@ -148,36 +151,6 @@ span {
   gap: 135px;
 }
 
-.remember__text {
-  padding-top: 32px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-  color: #FFFFFF;
-}
-
-.btn__play {
-  border-radius: 30px;
-  width: 234px;
-  height: 48px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #FFFFFF;
-  background: #9C0332;
-  padding-right: 90px;
-  padding-left: 74px;
-  box-sizing: border-box;
-  text-align: center;
-  display: block;
-  padding-top: 13.3px;
-}
-.btn__play:hover {
-  transform: scale(1.02);
-  box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
-}
-
 .riddle {
   background-repeat: no-repeat;
   background-position: center;
@@ -186,21 +159,12 @@ span {
   padding-top: 276px;
   padding-bottom: 288px;
 }
-
 .riddle__text {
-  padding-top: 32px;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-  color: #FFFFFF;
   text-align: center;
 }
-
 .riddle__title {
   text-align: center;
 }
-
 .riddle__btn {
   display: flex;
   justify-content: center;
@@ -209,7 +173,6 @@ span {
 .footer {
   background: #000915;
 }
-
 .footer__title {
   padding-top: 32px;
   font-style: normal;
@@ -230,18 +193,19 @@ span {
     height: 735px;
     background-image: url(img/top_mob.jpg);
   }
-  .top_title {
+  .top__title {
     padding-top: 238px;
     font-size: 32px;
     line-height: 39px;
     width: 343px;
     text-align: center;
   }
+  .top__text {
+    width: 343px;
+  }
   .text {
-    padding-top: 32px;
     font-size: 14px;
     line-height: 22px;
-    width: 343px;
     text-align: center;
   }
   .top__btn {
@@ -254,7 +218,7 @@ span {
     justify-content: center;
     flex-wrap: wrap;
   }
-  .game__item {
+  .game__play {
     padding-left: 16px;
     width: 343px;
   }
@@ -285,16 +249,6 @@ span {
     padding-bottom: 85px;
     flex-direction: column-reverse;
     gap: 0px;
-  }
-  .remember__text {
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-  }
-  .riddle__text {
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
   }
   .riddle {
     background-image: url(img/bottom_mob.jpg);

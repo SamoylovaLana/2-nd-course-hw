@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework1</title>
+    <title>Homework</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto&display=swap"
@@ -16,10 +16,10 @@
 <body>
     <section class="top center">
         <div>
-            <h1 class="top_title">Добро пожаловать на мой сайт !</h1>
+            <h1 class="top__title">Добро пожаловать на мой сайт !</h1>
         </div>
         <div>
-            <p class="text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+            <p class="top__text text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
                 <span>поехали</span> и <span>приступай</span>
             </p>
         </div>
@@ -27,13 +27,13 @@
         <a href="#" class="btn__go">Поехали!</a>
         </div>
     </section>
-    <section class="game center">
-        <ul class="game-box">
-            <a href="#"><li class="game__item game__item-1">Игра 1</li></a>
-            <a href="#"><li class="game__item game__item-2">Игра 2</li></a>
-            <a href="#"><li class="game__item game__item-3">Игра 3</li></a>
-        </ul>
-    </section>
+    <div class="game center">
+        <div class="game-box">
+            <a href="#"><div class="game__play game__play-1">Игра 1</div></a>
+            <a href="#"><div class="game__play game__play-2">Игра 2</div></a>
+            <a href="#"><div class="game__play game__play-3">Игра 3</div></a>
+        </div>
+    </div>
     <section class="seasons center">
         <div>
             <div>
@@ -43,7 +43,7 @@
                 <p class="text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится.</p>
             </div>
             <div class="btn">
-            <a href="#" class="btn__go">Поехали!</a>
+            <a href="#" class="btn__play btn__go">Играть!</a>
             </div>
         </div>    
             <img class="picture" src="img/game_night1.svg" alt="photo game_night1">
@@ -55,18 +55,18 @@
                 <h2 class="title">Запомни слова </h2>
             </div>
             <div>
-                <p class="remember__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+                <p class="text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
             </div>
             <div class="btn">
-            <a href="#" class="btn__play">Играть</a>
+            <a href="#" class="btn__play btn__go">Играть!</a>
             </div>
         </div>  
     </section>
     <section class="riddle center">
            <h2 class="title riddle__title ">Игра в загадки</h2>
-           <p class="riddle__text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+           <p class="riddle__text text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
            <div class="riddle__btn btn">
-               <a href="#" class="btn__play">Играть</a>
+               <a href="#" class="btn__play btn__go">Играть!</a>
            </div>
     </section>
     <footer class="footer center">
