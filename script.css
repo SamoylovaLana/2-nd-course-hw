@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*/ Домашняя работа №3
 
 // 1 задание
@@ -71,7 +72,6 @@ if (isNaN(numb)) {
       alert('Число не чётное!');
 }
 
-// 8 задание
 
 let clientOS = prompt("Если Вы используете iOS введите - 0, а если Android введите - 1  ");
 if (clientOS === '0') {
@@ -96,5 +96,4 @@ if (clientOS1 === '0' && clientDeviceYear <= '2014' ) {
       alert('Установите версию приложения для Android по ссылке');
 } else {
       alert('Введено не верно');
-}
-*/
+}*//*# sourceMappingURL=script.css.map */
