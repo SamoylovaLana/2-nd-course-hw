@@ -6,8 +6,10 @@
 //Если передадим 6 и 6, то функция должна вернуть 6.
 
 function number(a, b) {
+
     if (b <= a) {
         alert(`${b} меньше или равно ${a} `);
+
     } else {
         alert(`${a} меньше или равно ${b} `);
     }
@@ -22,8 +24,10 @@ number(6, 6);
 //'Число четное', если число четное, 'Число нечетное' — если нечетное.
 
 function numb(c) {
+
     if (c % 2 == 0) {
         alert(`Число ${c} чётное!`);
+
     } else {
         alert(`Число ${c} не чётное!`);
     }
@@ -37,16 +41,20 @@ numb(4);
 //и выводит в консоль квадрат этого числа.
 
 function calc(s) {
+
     let square = s **2;
     alert(`Квадрат ${s} равен ${square}`) 
 }
+
 calc(4);
 
 //3.2 Напишите функцию, которая принимает параметром число 
 //и возвращает квадрат этого числа.
+
 const figure = (d) => {
     return d**2;
 }
+
 alert(`Квадрат этого числа ${figure(5)}`);
 
 //Задание 4
@@ -58,19 +66,23 @@ alert(`Квадрат этого числа ${figure(5)}`);
 
 
 let age = prompt("Сколько Вам лет?");
+
 if (age <= 12 && age >= 0) {
     function printMessage() {
         alert("Привет, друг!");
     }
+
 } else if (age >= 13) {
     function printMessage() {
         alert("Добро пожаловать!");
-    }       
+    } 
+
 } else {
     function printMessage() {
         alert("Вы ввели неправильное значение");
     }
 }
+
 printMessage();
 
 //Задание 5
@@ -82,8 +94,10 @@ printMessage();
 
 let first = prompt("Введите первое число");
 let second = prompt("Введите второе число");
+
 if (isNaN(second) || isNaN(first) ) {                                  
     alert('Одно или оба значения не являются числом');
+    
 } else {
     function mult() {
     let mult = first * second;
@@ -102,11 +116,15 @@ mult(first, second);
 // с параметрами от 0 до 10 включительно.
 
 let n = Number(prompt("Введите число"));
+
 const numeral = (n)  => {
+
     if (isNaN(n)) {                                  
     alert('Переданный параметр не является числом');
+
     } else {
         return n ** 2;
     } 
 } 
+
 alert(`${n} в кубе равняется ${numeral(n)}`);
