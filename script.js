@@ -41,7 +41,6 @@ numb(4);
 //и выводит в консоль квадрат этого числа.
 
 function calc(s) {
-
     let square = s **2;
     alert(`Квадрат ${s} равен ${square}`) 
 }
