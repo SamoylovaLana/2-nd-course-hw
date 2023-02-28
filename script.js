@@ -140,7 +140,7 @@ function season(monthNumber) {
     if (monthNumber ===  1 || monthNumber === 2 || monthNumber === 12) {
         console.log('Зима');
 
-    } else if (monthNumber >=  3 && monthNumber <=5) {
+    } else if (monthNumber >=  3 && monthNumber <= 5) {
         console.log('Весна');
 
     } else if (monthNumber >=  6 && monthNumber <= 8) {
