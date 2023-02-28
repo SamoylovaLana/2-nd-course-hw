@@ -127,3 +127,31 @@ const numeral = (n)  => {
 } 
 
 alert(`${n} в кубе равняется ${numeral(n)}`);
+
+//Сделайте функцию, которая принимает параметром номер месяца (от 1 до 12) 
+//и возвращает время года, в которое попадает этот месяц ("Зима", "Лето", "Весна", "Осень").
+//Придумайте, как должна работать функция, если ей передать неправильный параметр.
+//Выведите пример использования функции в консоль.
+//Для решения задачи используйте конструкцию else if и логические операторы ||(логическое ИЛИ) и && (логическое И).
+
+
+function season(monthNumber) {
+
+    if (monthNumber ===  1 || monthNumber === 2 || monthNumber === 12) {
+        console.log('Зима');
+
+    } else if (monthNumber ===  3 || monthNumber === 4 || monthNumber === 5) {
+        console.log('Весна');
+
+    } else if (monthNumber ===  6 || monthNumber === 7 || monthNumber === 8) {
+        console.log('Лето');
+
+    } else if (monthNumber ===  9 || monthNumber === 10 || monthNumber === 11) {
+        console.log('Лето');
+
+    } else if (monthNumber >=  13) {
+        console.log('Такого по числу месяца не существует!');
+    }       
+}
+
+season(5);
