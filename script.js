@@ -161,6 +161,6 @@ function gameMessage() {
     if (gameGo) {
         alert('Поехали!')
     } else {
-        alert('Возвращаетесь в игру!');
+        alert('Возвращайтесь в игру!');
     } 
 }
