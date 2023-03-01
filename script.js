@@ -155,3 +155,12 @@ function season(monthNumber) {
 }
 
 season(5);
+
+function gameMessage() {
+    let gameGo = confirm('Вы хотите сыграть в 1 Игру?');
+    if (gameGo) {
+        alert('Поехали!')
+    } else {
+        alert('Возвращаетесь в игру!');
+    } 
+}
