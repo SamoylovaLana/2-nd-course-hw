@@ -132,32 +132,22 @@ alert(`${n} в кубе равняется ${numeral(n)}`);
 //Для решения задачи используйте конструкцию else if и логические операторы ||(логическое ИЛИ) и && (логическое И).
 
 
-function season(monthNumber) {
+function season() {
+    let monthNumber = prompt('Напишите номер месяца');
 
-    if (monthNumber ===  1 || monthNumber === 2 || monthNumber === 12) {
-        console.log('Зима');
+    if (monthNumber >=  1 && monthNumber <= 2 || monthNumber == 12) {
+        alert('Зима');
 
     } else if (monthNumber >=  3 && monthNumber <= 5) {
-        console.log('Весна');
+        alert('Весна');
 
     } else if (monthNumber >=  6 && monthNumber <= 8) {
-        console.log('Лето');
+        alert('Лето');
 
     } else if (monthNumber >=  9 && monthNumber <= 11) {
-        console.log('Лето');
+        alert('Лето');
 
     } else if (monthNumber >=  13) {
-        console.log('Такого по числу месяца не существует!');
+        alert('Такого по числу месяца не существует!');
     }       
-}
-
-season(5);
-
-function gameMessage() {
-    let gameGo = confirm('Вы хотите сыграть в 1 Игру?');
-    if (gameGo) {
-        alert('Поехали!')
-    } else {
-        alert('Возвращайтесь в игру!');
-    } 
 }
