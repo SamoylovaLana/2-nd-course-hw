@@ -29,14 +29,14 @@ function season() {
 const numbs = [1, 5, 4, 10, 0, 3];
 
 for (let i = 0; i < numbs.length; i++) {
-	if (numbs[i] == 10) break;
+	if (numbs[i] == 0) break;
 	console.log(numbs[i]);
 }
 
 // Задание 2
 //Дан массив:[1, 5, 4, 10, 0, 3]. Найдите позицию числа 4 в этом массиве.
 
-numbs.indexOf(4);
+console.log(numbs.indexOf(4));
 
 // Задание 3
 //Дан массив чисел:[1, 3, 5, 10, 20]. С помощью метода join
@@ -50,17 +50,17 @@ console.log(numeral);
 //С помощью вложенных циклов создайте многомерный массив вида:
 //[[1, 1, 1], [1, 1, 1], [1, 1, 1]].
 
-let arr = [];
+let multiArray = [];
 
 for (let i = 0; i < 3; i++) {
-	arr[i] = []; // создаем подмассив
+	multiArray[i] = []; // создаем подмассив
 	
 	for (let j = 0; j < 3; j++) {
-		arr[i].push( 1); // заполняем подмассив числами
+		multiArray[i].push(1); // заполняем подмассив числами
 	}
 }
 
-console.log(arr);  
+console.log(multiArray);  
 
 // Задание 5 Дан массив:[1, 1, 1]. Добавьте в конец массива значения 2, 2, 2.
 
