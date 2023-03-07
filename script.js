@@ -150,13 +150,13 @@ console.log(currentDate);
 
 function dayMonths(days, months) {
     let myDate = new Date();
-    let fullDate = "Сегодня: " + myDate.getDate() + " " + months[myDate.getMonth()] 
-    + " " + days[myDate.getDay()] + " " +  myDate.getFullYear() + "год" + " "+ "Время:" + " " + myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds(); 
+    let fullDate = "Дата: " + myDate.getDate() + " " + months[myDate.getMonth()] 
+    + " " +  myDate.getFullYear() + " " + "-" + " " + "это" + " " + days[myDate.getDay()] + '.' + " "+ "Время:" + " " + myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds(); 
     console.log(fullDate);
 }
 
-dayMonths(["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", 
-"Суббота"],["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня","Июля", "Августа", 
+dayMonths(["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", 
+"суббота"],["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня","Июля", "Августа", 
 "Сентября", "Октября", "Ноября", "Декабря"]);
 
 
