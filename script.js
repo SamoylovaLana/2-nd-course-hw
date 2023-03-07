@@ -101,6 +101,7 @@ console.log(Math.max(52, 53, 49, 77, 21, 32));
 function randomNumb(minNumb, maxNumb) {
     return Math.round(Math.random()*(maxNumb - minNumb)) + minNumb;
 }
+
 console.log(randomNumb(1, 10));
 
 //Задание 6 Напишите функцию, которая будет принимать на вход целое число, а 
@@ -116,8 +117,7 @@ function getRandomArrNumbers(numb) {
     
     let array = []; 
     for (let i = 0; i < Math.floor(numb / 2); i++) { 
-        array[i] = (Math.round(Math.random() * numb)); 
-        
+        array[i] = (Math.round(Math.random() * numb));   
     }
     console.log(array);
 }   
@@ -136,6 +136,7 @@ console.log(`${randomNumber(1, 10)}`);
 
 //Задание 8 Выведите в консоль текущую дату в стандартном режиме. 
 //Используйте один из трех рассмотренных в уроке способов. 
+
 let myDate = new Date();
 console.log(myDate);
 
@@ -143,7 +144,7 @@ console.log(myDate);
 //Выведите дату, которая наступит через 73 дня после текущей.
 let currentDate = new Date();
 currentDate.setDate(currentDate.getDate() + 73);
-console.log(currentDate);
+console.log(`Дата через 73 дня: ${currentDate}`);
 
 //Задание 10 Написать функцию, которая на вход принимает дату, а возвращает 
 //ее отображение в виде: Дата: <число> <месяц на русском> <год> - это <день 
