@@ -63,11 +63,13 @@ console.log(str);
 //символов не должен влиять.
 
 function searchStart(animals, search) {
+    let newAnimals = [];
     animals.forEach((animals) => {
-        if (animals.toLowerCase().includes(search.toLowerCase())) {
-            console.log([animals.toLowerCase()]);
-        }
-    });
+            if (animals.toLowerCase().includes(search.toLowerCase())) { 
+                newAnimals.push(animals.toLowerCase());
+                console.log(newAnimals); 
+            }
+    });      
 }  
 
 searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко');
