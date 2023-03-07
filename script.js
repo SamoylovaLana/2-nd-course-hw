@@ -150,8 +150,8 @@ console.log(currentDate);
 
 function dayMonths(days, months) {
     let myDate = new Date();
-    let fullDate = "Сегодня: " + myDate.getDate() + " " + months[myDate.getMonth()] + 
-    ", " + days[myDate.getDay()]; 
+    let fullDate = "Сегодня: " + myDate.getDate() + " " + months[myDate.getMonth()] 
+    + " " + days[myDate.getDay()] + " " +  myDate.getFullYear() + "год" + " "+ "Время:" + " " + myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds(); 
     console.log(fullDate);
 }
 
