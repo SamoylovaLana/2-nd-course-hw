@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-  
+
 body {
     font-family: "Montserrat", sans-serif;
 }
-  
+
 a {
     text-decoration: none;
 }
@@ -23,6 +23,7 @@ a {
     background-size: cover;
     height: 1024px;
     background-image: url(img/top.jpg);
+
     &__title {
         padding-top: 217px;
         font-style: normal;
@@ -32,14 +33,16 @@ a {
         color: #FFFFFF;
         width: 755px;
     }
+
     &__text {
         width: 481px;
     }
+
     &__btn {
         margin-top: 44px;
     }
 }
-  
+
 .title {
     font-style: normal;
     font-weight: 700;
@@ -63,6 +66,7 @@ span {
 
 .btn {
     margin-top: 32px;
+
     &__go {
         border-radius: 30px;
         width: 234px;
@@ -78,26 +82,29 @@ span {
         text-align: center;
         display: block;
         padding-top: 13.3px;
+
         &:hover {
             transform: scale(1.02);
             box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
-        }  
+        }
     }
+
     &__play {
         padding-right: 90px;
         padding-left: 74px;
     }
 }
-
 .game {
     background: #000915;
+
     &-box {
         padding-top: 128px;
         padding-bottom: 128px;
         gap: 32px;
         display: flex;
     }
-    &__play{
+
+    &__play {
         background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
         border-radius: 16px;
         height: 300px;
@@ -116,20 +123,24 @@ span {
         line-height: 32px;
         color: #FFFFFF;
         box-sizing: border-box;
+
         &:hover {
             transform: scale(1.02);
             box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
         }
+
         &-1 {
             background-image: url(img/game1.jpg);
         }
+
         &-2 {
             background-image: url(img/game2.jpg);
         }
+
         &-3 {
             background-image: url(img/game3.jpg);
         }
-    }  
+    }
 }
 
 .seasons {
@@ -159,12 +170,15 @@ span {
     background-image: url(img/bottom.jpg);
     padding-top: 276px;
     padding-bottom: 288px;
+
     &__text {
         text-align: center;
     }
+
     &__title {
         text-align: center;
     }
+
     &__btn {
         display: flex;
         justify-content: center;
@@ -173,6 +187,7 @@ span {
 
 .footer {
     background: #000915;
+
     &__title {
         padding-top: 32px;
         font-style: normal;
@@ -184,5 +199,5 @@ span {
         text-align: center;
     }
 }
-
+@import 'tablet';
 @import 'mobile';

@@ -184,6 +184,50 @@ span {
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .text {
+    text-align: center;
+    width: 600px;
+  }
+  .top__btn {
+    display: flex;
+    justify-content: center;
+  }
+  .game-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .title {
+    text-align: center;
+  }
+  .picture {
+    width: 344px;
+    height: 236px;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+  .seasons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .remember {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -198,7 +242,6 @@ span {
     font-size: 32px;
     line-height: 39px;
     width: 343px;
-    text-align: center;
   }
   .top__text {
     width: 343px;
@@ -207,16 +250,10 @@ span {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
+    width: 343px;
   }
   .top__btn {
-    display: flex;
-    justify-content: center;
     margin-top: 32px;
-  }
-  .game-box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
   }
   .game__play {
     padding-left: 16px;
@@ -226,12 +263,10 @@ span {
     font-size: 32px;
     line-height: 39px;
     width: 343px;
-    text-align: center;
   }
   .seasons {
     padding-top: 51px;
     padding-bottom: 85px;
-    flex-direction: column;
     gap: 0px;
   }
   .picture {
@@ -240,14 +275,11 @@ span {
     height: 236px;
   }
   .btn {
-    display: flex;
-    justify-content: center;
     margin-top: 32px;
   }
   .remember {
     padding-top: 51px;
     padding-bottom: 85px;
-    flex-direction: column-reverse;
     gap: 0px;
   }
   .riddle {
