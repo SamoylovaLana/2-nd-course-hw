@@ -6,15 +6,15 @@
   .top {
     height: 735px;
     background-image: url(img/top_mob.jpg);
-  }
-  .top__title {
-    padding-top: 238px;
-    font-size: 32px;
-    line-height: 39px;
-    width: 343px;
-  }
-  .top__text {
-    width: 343px;
+    &__title {
+      padding-top: 238px;
+      font-size: 32px;
+      line-height: 39px;
+      width: 343px;
+    }
+    &__text {
+      width: 343px;
+    }
   }
   .text {
     font-size: 14px;
