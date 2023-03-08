@@ -34,6 +34,12 @@ a {
 }
 .top__text {
   width: 481px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-top: 32px;
 }
 .top__btn {
   margin-top: 44px;
@@ -161,6 +167,12 @@ span {
 }
 .riddle__text {
   text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding-top: 32px;
 }
 .riddle__title {
   text-align: center;
@@ -242,9 +254,11 @@ span {
     font-size: 32px;
     line-height: 39px;
     width: 343px;
+    text-align: center;
   }
   .top__text {
     width: 343px;
+    text-align: center;
   }
   .text {
     font-size: 14px;
@@ -286,5 +300,10 @@ span {
     background-image: url(img/bottom_mob.jpg);
     padding-top: 51px;
     padding-bottom: 487px;
+  }
+  .riddle__text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
   }
 }/*# sourceMappingURL=style.css.map */

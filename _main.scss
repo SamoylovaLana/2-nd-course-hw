@@ -32,11 +32,15 @@ a {
         color: #FFFFFF;
         width: 755px;
     }
-
     &__text {
         width: 481px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-top: 32px;
     }
-
     &__btn {
         margin-top: 44px;
     }
@@ -170,9 +174,14 @@ span {
     background-image: url(img/bottom.jpg);
     padding-top: 276px;
     padding-bottom: 288px;
-
     &__text {
         text-align: center;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-top: 32px;
     }
 
     &__title {

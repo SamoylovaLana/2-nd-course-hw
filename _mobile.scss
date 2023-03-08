@@ -11,9 +11,11 @@
       font-size: 32px;
       line-height: 39px;
       width: 343px;
+      text-align: center;
     }
     &__text {
       width: 343px;
+      text-align: center;
     }
   }
   .text {
@@ -56,5 +58,10 @@
     background-image: url(img/bottom_mob.jpg);
     padding-top: 51px;
     padding-bottom: 487px;
+    &__text {
+      font-size: 14px;
+      line-height: 22px;
+      width: 343px;
+    }
   }
 }
