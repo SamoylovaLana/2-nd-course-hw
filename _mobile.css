@@ -12,7 +12,6 @@
     font-size: 32px;
     line-height: 39px;
     width: 343px;
-    text-align: center;
   }
   .top__text {
     width: 343px;
@@ -21,18 +20,12 @@
     font-size: 14px;
     line-height: 22px;
     text-align: center;
+    width: 343px;
   }
   .top__btn {
-    display: flex;
-    justify-content: center;
     margin-top: 32px;
   }
-  .game-box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .game__item {
+  .game__play {
     padding-left: 16px;
     width: 343px;
   }
@@ -40,12 +33,10 @@
     font-size: 32px;
     line-height: 39px;
     width: 343px;
-    text-align: center;
   }
   .seasons {
     padding-top: 51px;
     padding-bottom: 85px;
-    flex-direction: column;
     gap: 0px;
   }
   .picture {
@@ -54,19 +45,21 @@
     height: 236px;
   }
   .btn {
-    display: flex;
-    justify-content: center;
     margin-top: 32px;
   }
   .remember {
     padding-top: 51px;
     padding-bottom: 85px;
-    flex-direction: column-reverse;
     gap: 0px;
   }
   .riddle {
     background-image: url(img/bottom_mob.jpg);
     padding-top: 51px;
     padding-bottom: 487px;
+  }
+  .riddle .text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
   }
 }/*# sourceMappingURL=_mobile.css.map */
