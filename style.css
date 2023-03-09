@@ -30,10 +30,10 @@ a {
   font-size: 64px;
   line-height: 78px;
   color: #FFFFFF;
-  width: 755px;
+  max-width: 755px;
 }
 .top__text {
-  width: 481px;
+  max-width: 481px;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -71,7 +71,7 @@ span {
 }
 .btn__go {
   border-radius: 30px;
-  width: 234px;
+  max-width: 234px;
   height: 48px;
   font-weight: 400;
   font-size: 18px;
@@ -107,7 +107,7 @@ span {
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
   border-radius: 16px;
   height: 300px;
-  width: 379px;
+  max-width: 379px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -203,7 +203,7 @@ span {
   }
   .text {
     text-align: center;
-    width: 600px;
+    max-width: 600px;
   }
   .top__btn {
     display: flex;
@@ -218,7 +218,7 @@ span {
     text-align: center;
   }
   .picture {
-    width: 344px;
+    max-width: 344px;
     height: 236px;
   }
   .btn {
@@ -253,30 +253,30 @@ span {
     padding-top: 238px;
     font-size: 32px;
     line-height: 39px;
-    width: 343px;
+    max-width: 343px;
     text-align: center;
   }
   .top__text {
-    width: 343px;
+    max-width: 343px;
     text-align: center;
   }
   .text {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
-    width: 343px;
+    max-width: 343px;
   }
   .top__btn {
     margin-top: 32px;
   }
   .game__play {
     padding-left: 16px;
-    width: 343px;
+    max-width: 343px;
   }
   .title {
     font-size: 32px;
     line-height: 39px;
-    width: 343px;
+    max-width: 343px;
   }
   .seasons {
     padding-top: 51px;
@@ -285,7 +285,7 @@ span {
   }
   .picture {
     padding-top: 64px;
-    width: 344px;
+    max-width: 344px;
     height: 236px;
   }
   .btn {
@@ -304,6 +304,6 @@ span {
   .riddle__text {
     font-size: 14px;
     line-height: 22px;
-    width: 343px;
+    max-width: 343px;
   }
 }/*# sourceMappingURL=style.css.map */

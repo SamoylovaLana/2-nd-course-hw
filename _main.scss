@@ -30,10 +30,10 @@ a {
         font-size: 64px;
         line-height: 78px;
         color: #FFFFFF;
-        width: 755px;
+        max-width: 755px;
     }
     &__text {
-        width: 481px;
+        max-width: 481px;
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
@@ -72,7 +72,7 @@ span {
 
     &__go {
         border-radius: 30px;
-        width: 234px;
+        max-width: 234px;
         height: 48px;
         font-weight: 400;
         font-size: 18px;
@@ -112,7 +112,7 @@ span {
         background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0023.jpg);
         border-radius: 16px;
         height: 300px;
-        width: 379px;
+        max-width: 379px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

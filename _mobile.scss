@@ -10,11 +10,11 @@
       padding-top: 238px;
       font-size: 32px;
       line-height: 39px;
-      width: 343px;
+      max-width: 343px;
       text-align: center;
     }
     &__text {
-      width: 343px;
+      max-width: 343px;
       text-align: center;
     }
   }
@@ -22,19 +22,19 @@
     font-size: 14px;
     line-height: 22px;
     text-align: center;
-    width: 343px;
+    max-width: 343px;
   }
   .top__btn {
     margin-top: 32px;
   }
   .game__play {
     padding-left: 16px;
-    width: 343px;
+    max-width: 343px;
   }
   .title {
     font-size: 32px;
     line-height: 39px;
-    width: 343px;
+    max-width: 343px;
   }
   .seasons {
     padding-top: 51px;
@@ -43,7 +43,7 @@
   }
   .picture {
     padding-top: 64px;
-    width: 344px;
+    max-width: 344px;
     height: 236px;
   }
   .btn {
@@ -61,7 +61,7 @@
     &__text {
       font-size: 14px;
       line-height: 22px;
-      width: 343px;
+      max-width: 343px;
     }
   }
 }

@@ -5,7 +5,7 @@
     }
     .text {
         text-align: center;
-        width: 600px;
+        max-width: 600px;
     }
     .top__btn {
         display: flex;
@@ -20,7 +20,7 @@
         text-align: center;
     }
     .picture {
-        width: 344px;
+        max-width: 344px;
         height: 236px;
     }
     .btn {
