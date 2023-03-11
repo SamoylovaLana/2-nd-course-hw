@@ -103,23 +103,19 @@ result = massif.map(item =>(Number(item)));
 console.log(result);
 result = result.filter(item => item >= 0);
 console.log(result);*/
-/*
-
-Здесь я пока разбираюсь, переделываю, застряла, если к моменту проверки не сделаю, 
-дайте мне, пожалуйста, подсказку ;)
 
 const massif = [1, '4', false, 9, 'two'];
 
-function toNumberArr() {
-    return item =>(Number(item)); 
+function toNumberArr(a) {
+    a = a.map(item =>(Number(item)));   
 }
-function eachSecond(arraySecond, callBackSecond) {
-    result = arraySecond.map(callBackSecond);
-    result = result.filter(item => item >= 0);
+
+function eachSecond(b) {
+    b = b.map(item =>(Number(item)));
+    result = b.filter(item => item >= 0);
     console.log(result);
 }
-eachSecond(massif, toNumberArr); // [1, 4, 0, 9]
-*/
+eachSecond(massif, toNumberArr);
 
 //Задание 4 Напишите программу, которая на протяжении 30 секунд, каждые 3 секунды, 
 //будет выводить в консоль текущую дату. Последней строкой должно выводиться 
@@ -163,7 +159,3 @@ function talk() {
 
 calling();
 beeps(); 
-
-
-
-
