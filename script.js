@@ -87,12 +87,13 @@ getSortedArrayObj(users);
 //console.log(arrt.reverse());
 
 const array = [1, '4', 9, 'two'];
-function reversArr(a) {
-    a = a.reverse();
-}
 
-function each(b) {
-    console.log(b.reverse()); 
+const each = (a, callback) => {
+    result = a.reverse();
+    callback();
+}
+const reversArr = () => { 
+    console.log(result);
 }
 
 each(array, reversArr); // ['two', 9, '4', 1]
@@ -106,15 +107,16 @@ console.log(result);*/
 
 const massif = [1, '4', false, 9, 'two'];
 
-function toNumberArr(a) {
-    a = a.map(item =>(Number(item)));   
+const eachSecond = (a, callback) => {
+    result = a.map(item =>(Number(item)));
+    callback();
 }
 
-function eachSecond(b) {
-    b = b.map(item =>(Number(item)));
-    result = b.filter(item => item >= 0);
+const toNumberArr = () => {
+    result = result.filter(item => item >= 0); 
     console.log(result);
 }
+
 eachSecond(massif, toNumberArr);
 
 //Задание 4 Напишите программу, которая на протяжении 30 секунд, каждые 3 секунды, 
