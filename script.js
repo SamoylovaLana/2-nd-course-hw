@@ -84,7 +84,7 @@ getSortedArrayObj(users);
 //переданным массивом в зависимости от переданной callback-функции. Реализуйте 
 //несколько callback-функций, которые будут делать следующее:
 //Переворачивать массив: const arrt = [1, '4', 9, 'two'];
-//console.log(arrt.reverse());
+//console.log(array.reverse());
 
 const array = [1, '4', 9, 'two'];
 
