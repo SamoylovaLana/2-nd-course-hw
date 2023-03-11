@@ -149,7 +149,7 @@ function calling() {
 function beeps(callback) {
     setTimeout(() => {
         console.log('Идут гудки...');
-        talk();
+        callback();
     }, 1000);
 }
 
@@ -160,4 +160,4 @@ function talk() {
 }
 
 calling();
-beeps(); 
+beeps(talk); 
