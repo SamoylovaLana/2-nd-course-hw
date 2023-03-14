@@ -148,6 +148,12 @@ span {
 .picture {
   max-width: 485px;
 }
+.picture-1 {
+  background-image: url(img/game_night1.svg);
+}
+.picture-2 {
+  background-image: url(img/gaming_2.svg);
+}
 
 .remember {
   padding-top: 239px;
@@ -194,114 +200,4 @@ span {
   color: #FFFFFF;
   padding-bottom: 32px;
   text-align: center;
-}
-
-@media (max-width: 1024px) {
-  .center {
-    padding-left: calc(50% - 393px);
-    padding-right: calc(50% - 393px);
-  }
-  .text {
-    text-align: center;
-    max-width: 600px;
-  }
-  .top__btn {
-    display: flex;
-    justify-content: center;
-  }
-  .game-box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .title {
-    text-align: center;
-  }
-  .picture {
-    max-width: 344px;
-  }
-  .btn {
-    display: flex;
-    justify-content: center;
-  }
-  .seasons {
-    flex-direction: column;
-    align-items: center;
-  }
-  .remember {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-}
-@media (min-width: 768px) and (max-width: 833px) {
-  .center {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-@media (max-width: 767px) {
-  .center {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .top {
-    height: 735px;
-    background-image: url(img/top_mob.jpg);
-  }
-  .top__title {
-    padding-top: 238px;
-    font-size: 32px;
-    line-height: 39px;
-    max-width: 343px;
-    text-align: center;
-  }
-  .top__text {
-    max-width: 343px;
-    text-align: center;
-  }
-  .text {
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    max-width: 343px;
-  }
-  .top__btn {
-    margin-top: 32px;
-  }
-  .game__play {
-    padding-left: 16px;
-    max-width: 343px;
-  }
-  .title {
-    font-size: 32px;
-    line-height: 39px;
-    max-width: 343px;
-  }
-  .seasons {
-    padding-top: 51px;
-    padding-bottom: 85px;
-    gap: 0px;
-  }
-  .picture {
-    padding-top: 64px;
-    max-width: 344px;
-  }
-  .btn {
-    margin-top: 32px;
-  }
-  .remember {
-    padding-top: 51px;
-    padding-bottom: 85px;
-    gap: 0px;
-  }
-  .riddle {
-    background-image: url(img/bottom_mob.jpg);
-    padding-top: 51px;
-    padding-bottom: 487px;
-  }
-  .riddle__text {
-    font-size: 14px;
-    line-height: 22px;
-    max-width: 343px;
-  }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=_main.css.map */
