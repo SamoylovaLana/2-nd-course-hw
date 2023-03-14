@@ -146,7 +146,13 @@ span {
 }
 
 .picture {
-  height: 333px;
+  max-width: 485px;
+}
+.picture-1 {
+  background-image: url(img/game_night1.svg);
+}
+.picture-2 {
+  background-image: url(img/gaming_2.svg);
 }
 
 .remember {

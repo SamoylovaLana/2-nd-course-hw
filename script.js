@@ -86,18 +86,6 @@ getSortedArrayObj(users);
 //Переворачивать массив: const arrt = [1, '4', 9, 'two'];
 //console.log(array.reverse());
 
-const array = [1, '4', 9, 'two'];
-
-const each = (a, callback) => {
-    result = a.reverse();
-    callback();
-}
-const reversArr = () => { 
-    console.log(result);
-}
-
-each(array, reversArr); // ['two', 9, '4', 1]
-
 /*Преобразовывать все элементы к числу; если элемент получился NaN, то удалять его:
 const massif = [1, '4', false, 9, 'two'];
 result = massif.map(item =>(Number(item)));
@@ -105,19 +93,28 @@ console.log(result);
 result = result.filter(item => item >= 0);
 console.log(result);*/
 
+const array = [1, '4', 9, 'two'];
+
 const massif = [1, '4', false, 9, 'two'];
 
-const eachSecond = (a, callback) => {
-    result = a.map(item =>(Number(item)));
+const each = (a, callback) => {
+    result = a;
     callback();
+}
+const reversArr = () => { 
+    result = result.reverse();
+    console.log(result);
 }
 
 const toNumberArr = () => {
+    result = result.map(item =>(Number(item)));
     result = result.filter(item => item >= 0); 
     console.log(result);
 }
 
-eachSecond(massif, toNumberArr);
+each(array, reversArr); // ['two', 9, '4', 1]
+
+each(massif, toNumberArr);//[1, 4, 0, 9]
 
 //Задание 4 Напишите программу, которая на протяжении 30 секунд, каждые 3 секунды, 
 //будет выводить в консоль текущую дату. Последней строкой должно выводиться 

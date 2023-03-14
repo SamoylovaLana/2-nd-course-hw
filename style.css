@@ -146,7 +146,7 @@ span {
 }
 
 .picture {
-  height: 333px;
+  max-width: 485px;
 }
 
 .remember {
@@ -219,7 +219,6 @@ span {
   }
   .picture {
     max-width: 344px;
-    height: 236px;
   }
   .btn {
     display: flex;
@@ -286,7 +285,6 @@ span {
   .picture {
     padding-top: 64px;
     max-width: 344px;
-    height: 236px;
   }
   .btn {
     margin-top: 32px;
