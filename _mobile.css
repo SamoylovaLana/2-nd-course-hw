@@ -11,28 +11,30 @@
     padding-top: 238px;
     font-size: 32px;
     line-height: 39px;
-    width: 343px;
+    max-width: 343px;
+    text-align: center;
   }
   .top__text {
-    width: 343px;
+    max-width: 343px;
+    text-align: center;
   }
   .text {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
-    width: 343px;
+    max-width: 343px;
   }
   .top__btn {
     margin-top: 32px;
   }
   .game__play {
     padding-left: 16px;
-    width: 343px;
+    max-width: 343px;
   }
   .title {
     font-size: 32px;
     line-height: 39px;
-    width: 343px;
+    max-width: 343px;
   }
   .seasons {
     padding-top: 51px;
@@ -41,8 +43,6 @@
   }
   .picture {
     padding-top: 64px;
-    width: 344px;
-    height: 236px;
   }
   .btn {
     margin-top: 32px;
@@ -57,9 +57,9 @@
     padding-top: 51px;
     padding-bottom: 487px;
   }
-  .riddle .text {
+  .riddle__text {
     font-size: 14px;
     line-height: 22px;
-    width: 343px;
+    max-width: 343px;
   }
 }/*# sourceMappingURL=_mobile.css.map */
