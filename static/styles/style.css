@@ -21,7 +21,7 @@ a {
   background-position: center;
   background-size: cover;
   height: 1024px;
-  background-image: url(img/top.jpg);
+  background-image: url(../img/top.jpg);
 }
 .top__title {
   padding-top: 217px;
@@ -128,13 +128,13 @@ span {
   box-shadow: 5px 5px 20px rgba(51, 75, 151, 0.9333333333);
 }
 .game__play-1 {
-  background-image: url(img/game1.jpg);
+  background-image: url(../img/game1.jpg);
 }
 .game__play-2 {
-  background-image: url(img/game2.jpg);
+  background-image: url(../img/game2.jpg);
 }
 .game__play-3 {
-  background-image: url(img/game3.jpg);
+  background-image: url(../img/game3.jpg);
 }
 
 .seasons {
@@ -147,12 +147,6 @@ span {
 
 .picture {
   max-width: 485px;
-}
-.picture-1 {
-  background-image: url(img/game_night1.svg);
-}
-.picture-2 {
-  background-image: url(img/gaming_2.svg);
 }
 
 .remember {
@@ -167,7 +161,7 @@ span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(img/bottom.jpg);
+  background-image: url(../img/bottom.jpg);
   padding-top: 276px;
   padding-bottom: 288px;
 }
@@ -200,4 +194,113 @@ span {
   color: #FFFFFF;
   padding-bottom: 32px;
   text-align: center;
-}/*# sourceMappingURL=_main.css.map */
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .text {
+    text-align: center;
+    max-width: 600px;
+  }
+  .top__btn {
+    display: flex;
+    justify-content: center;
+  }
+  .game-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .title {
+    text-align: center;
+  }
+  .picture {
+    max-width: 344px;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+  .seasons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .remember {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+    background-image: url(img/top_mob.jpg);
+  }
+  .top__title {
+    padding-top: 238px;
+    font-size: 32px;
+    line-height: 39px;
+    max-width: 343px;
+    text-align: center;
+  }
+  .top__text {
+    max-width: 343px;
+    text-align: center;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 343px;
+  }
+  .top__btn {
+    margin-top: 32px;
+  }
+  .game__play {
+    padding-left: 16px;
+    max-width: 343px;
+  }
+  .title {
+    font-size: 32px;
+    line-height: 39px;
+    max-width: 343px;
+  }
+  .seasons {
+    padding-top: 51px;
+    padding-bottom: 85px;
+    gap: 0px;
+  }
+  .picture {
+    padding-top: 64px;
+  }
+  .btn {
+    margin-top: 32px;
+  }
+  .remember {
+    padding-top: 51px;
+    padding-bottom: 85px;
+    gap: 0px;
+  }
+  .riddle {
+    background-image: url(img/bottom_mob.jpg);
+    padding-top: 51px;
+    padding-bottom: 487px;
+  }
+  .riddle__text {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 343px;
+  }
+}/*# sourceMappingURL=style.css.map */
